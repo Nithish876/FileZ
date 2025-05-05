@@ -7,4 +7,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="colorImageFile">#FF9800</color>
+    <color name="colorAudioFile">#8BC34A</color>
+    <color name="colorVideoFile">#F44336</color>
+    <color name="colorDocumentFile">#03A9F4</color>
+    <color name="colorArchiveFile">#795548</color>
+    <color name="colorApkFile">#4CAF50</color>
+    <color name="colorDirectory">#2196F3</color>
+    <color name="colorDirectoryBackground">#E3F2FD</color>
+    <color name="colorFileBackground">#FFFFFF</color>
+    <color name="dividerColor">#EEEEEE</color>
 </resources>
