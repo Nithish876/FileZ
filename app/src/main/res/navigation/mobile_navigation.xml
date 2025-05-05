@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_files">
+
+    <fragment
+        android:id="@+id/navigation_files"
+        android:name="com.nithish.filez.ui.files.FilesFragment"
+        android:label="@string/title_files"
+        tools:layout="@layout/fragment_files">
+        <action
+            android:id="@+id/action_navigate_to_zip_viewer"
+            app:destination="@id/navigation_zip_viewer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_recent"
+        android:name="com.nithish.filez.ui.recent.RecentFragment"
+        android:label="@string/title_recent"
+        tools:layout="@layout/fragment_recent" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.nithish.filez.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+        
+    <fragment
+        android:id="@+id/navigation_zip_viewer"
+        android:name="com.nithish.filez.ui.zip.ZipViewerFragment"
+        android:label="@string/title_zip_viewer"
+        tools:layout="@layout/fragment_zip_viewer">
+        <argument
+            android:name="zipFilePath"
+            app:argType="string" />
+    </fragment>
+</navigation>
