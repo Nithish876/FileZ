@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">FileZ Explorer</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
     <string name="title_files">Files</string>
     <string name="title_recent">Recent</string>
     <string name="title_settings">Settings</string>

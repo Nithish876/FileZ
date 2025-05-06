@@ -38,4 +38,31 @@
         <item name="android:paddingTop">16dp</item>
         <item name="android:paddingBottom">8dp</item>
     </style>
+    
+    <!-- Custom Header Style -->
+    <style name="CustomHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+    <style name="CustomHeaderTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="CustomHeaderSubtitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">start</item>
+    </style>
 </resources> 

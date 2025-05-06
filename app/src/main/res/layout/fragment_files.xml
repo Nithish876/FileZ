@@ -15,31 +15,19 @@
         android:elevation="4dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp">
+            style="@style/CustomHeader">
 
             <TextView
                 android:id="@+id/tv_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/CustomHeaderTitle"
                 android:text="@string/title_files"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tv_current_path"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
+                style="@style/CustomHeaderSubtitle"
                 android:layout_marginEnd="8dp"
-                android:ellipsize="start"
-                android:singleLine="true"
-                android:textColor="@android:color/white"
-                android:textSize="12sp"
                 app:layout_constraintEnd_toStartOf="@id/btn_search"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_title"
@@ -186,7 +174,6 @@
                 style="@style/SectionTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:text="Folders"
                 app:layout_constraintTop_toBottomOf="@id/layout_categories" />
 
@@ -231,7 +218,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
+        android:layout_margin="24dp"
         android:contentDescription="Add"
         android:src="@android:drawable/ic_input_add"
         app:backgroundTint="@color/colorPrimary"
